@@ -1,3 +1,5 @@
 $(document).ready(function() {
-    console.log("Hello world!");  
+   $("#add").click( function() {
+    console.log("Hello!");
+   })
 });
