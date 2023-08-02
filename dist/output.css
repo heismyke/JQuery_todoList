@@ -936,6 +936,15 @@ video {
   outline-width: 0px;
 }
 
+.focus\:border-none:focus {
+  border-style: none;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 @media (min-width: 768px) {
   .md\:left-\[35\%\] {
     left: 35%;
