@@ -22,17 +22,29 @@ $(document).ready(function() {
             tasks = $("#taskArea").val().trim();
 
             var li = $("<li></li>")
-
+            
             li.append(tasks)
 
+
             $("#unorderedList").append(li)
+
+            var del = $("<i class='fa-solid fa-trash-can'></i>")
+            $("li").append(del)
+
+            
+            del.click(function(){
+                li.remove();
+            });
 
             $("#taskArea").val("");
             
             $("#add").prop("disabled", true)
+
+            
         })
 
     })
-   
+
+  
 
 });

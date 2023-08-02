@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo list</title>
+    <script src="https://kit.fontawesome.com/bcf7712443.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <link href="/dist/output.css" rel="stylesheet">
     <style>
@@ -20,7 +21,17 @@
             font-family: Arial, Helvetica, sans-serif;
             font-weight: lighter;
             color: #8c949f;
+            position: relative;
+            border: 1px solid #8c949f;
         }
+       li > i{
+        font-size: 40px;
+        position: absolute;
+        bottom: 20px ;
+        right: 20px;
+        cursor: pointer;
+        padding-top: 30px;
+       }
         body{
             background-color:#27272a ;
         }
