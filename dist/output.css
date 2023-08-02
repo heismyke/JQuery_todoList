@@ -698,6 +698,26 @@ video {
   width: 70%;
 }
 
+.w-\[75\%\] {
+  width: 75%;
+}
+
+.w-\[7\%\] {
+  width: 7%;
+}
+
+.w-\[78\%\] {
+  width: 78%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -799,6 +819,18 @@ video {
   padding-right: 2.5rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -806,6 +838,26 @@ video {
 
 .text-\[16px\] {
   font-size: 16px;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -819,6 +871,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#9ba3af\] {
+  --tw-text-opacity: 1;
+  color: rgb(155 163 175 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -887,6 +944,14 @@ video {
     width: 45%;
   }
 
+  .md\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .md\:w-\[78\%\] {
+    width: 78%;
+  }
+
   .md\:text-\[16px\] {
     font-size: 16px;
   }
@@ -928,6 +993,14 @@ video {
 
   .lg\:w-\[25\%\] {
     width: 25%;
+  }
+
+  .lg\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .lg\:w-\[78\%\] {
+    width: 78%;
   }
 
   .lg\:text-\[16px\] {
